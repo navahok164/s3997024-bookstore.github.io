@@ -1,0 +1,500 @@
+<!--   RMIT University Vietnam
+  Course: COSC2430 Web Programming
+  Semester: 2023A
+  Assessment: Assignment 1
+  Author: Ho Van Khoa
+  ID: S3997024
+  Acknowledgement: Acknowledge the resources that you use here:
+https://www.goodreads.com/ (for book image and content, description)
+https://www.flaticon.com/ (for icon and emoji)
+https://www.bookswagon.com/ (for book image and book details)
+https://fonts.google.com/ (for fonts)
+https://www.wikipedia.org/ (for book content and image)
+https://www.canva.com/ (for logo and background image)
+https://www.youtube.com/watch?v=9yVzCfe3LOM (for the line between text in introduction part)
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../image/ivi-logo.png">
+    <title>ivi Bookstore</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,400;1,300;1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <div class="top-section">
+            <div class="contact">
+                <div class="navbar-section">
+                    <ul class="list-section">
+                        <li class="li-section"><a href="../html/aboutus.html" target="_blank">Stores</a></li>
+                        <li class="li-section"><a href="#membership">Membership</a></li>
+                        <li class="li-section"><a href="#bestseller">Best Seller</a></li>
+                        <li class="li-section"><a href="#onsale">On Sale</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="top-right">
+                <div class="shopping-cart">
+                    <img src="../image/shopping-cart1.png" alt="shopping icon">&nbsp&nbsp<p>Cart</p>
+                </div>
+
+                <div class="user-account">
+                    <img src="../image/user.png" alt="user icon">&nbsp&nbsp<p>My Account</p>
+                </div>
+            </div>
+
+        </div>
+
+        <nav class="header-section">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img class="logo-pic" src="../image/ivi-logo.png" alt="ivi-logo">
+                </a>
+            </div>
+            <div class="menu"></div>
+            <ul class="navbar-section">
+                <li class="section"><a href="index.html" target="_blank">Home</a></li>
+                <li class="section"><a href="genre.html" target="_blank">Genre</a></li>
+                <li class="section"><a href="aboutus.html" target="_blank">Contact Us</a></li>
+                <li class="section"><a href="#membership">Membership</a></li>
+            </ul>
+            </div>
+            <form action="search" class="search-bar">
+                <input type="text" id="title" placeholder="Search by Title, Author, Genre">
+                <button type="submit"><img src="../image/search.png"></button>
+            </form>
+
+
+
+
+
+
+        </nav>
+    </header>
+
+
+
+    <div class="intro-container">
+        <div class="background-intro"></div>
+        <div class="intro-text">
+            <div id="intro">
+                <h3 class="title">Welcome to</h3>
+                <h1>IvI Bookstore</h1>
+                <p>Step into a realm where the scent of ink and paper dances in the air, where shelves are adorned with
+                    worlds waiting to be explored, and where the magic of storytelling comes alive. Welcome to IvI, your
+                    ultimate destination for all things literary.
+                    <br>
+                    <br>
+
+                    Welcome to our world book lovers. The journey begins here.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <section class="category-1-container">
+        <div id="bestseller" class="category-1">
+            <div class="heading">
+                <h1 class="top-heading"><span>Our Top 3 Books</span></h1>
+                <p> to a literary haven where best-selling stories come alive, inviting you to embark on extraordinary
+                    journeys within the pages of our carefully curated books.</p>
+            </div>
+            <div class="books">
+                <div class="book1">
+                    <div class="book-cover">
+                        <img src="../image/book image/To kill a mocking bird/mockingbird-main.jpg"
+                            alt="To Kill a Mockingbird-picture" class="book-pic">
+                        <div class="buy-now">
+                            <div class="add">
+                                <a href="../html/aboutus.html" target="_blank"><img src="../image/shopping-cart.png"
+                                        alt="shopping cart-icon"></a>
+                            </div>
+                            <div class="information">
+                                <a href="../html/to-kill-a-mocking-bird.html" target="_blank"><img
+                                        src="../image/book.png" alt="book-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-description">
+                        <p class="book-title">To Kill a Mockingbird</p>
+                        <p class="book-price">50$</p>
+                        <p class="book-rating">★★★★★</p>
+                    </div>
+                </div>
+
+                <div class="book2">
+                    <div class="book-cover">
+                        <img src="../image/book image/Harry Potter and the Philosopher’s Stone/harrypotter-main.jpg"
+                            alt="harrypotter-picture" class="book-pic">
+                        <div class="buy-now">
+                            <div class="add">
+                                <a href="../html/aboutus.html" target="_blank"><img src="../image/shopping-cart.png"
+                                        alt="shopping cart-icon"></a>
+                            </div>
+                            <div class="information">
+                                <a href="../html/harry-potter.html" target="_blank"><img src="../image/book.png"
+                                        alt="book-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-description">
+                        <p class="book-title">Harry Potter</p>
+                        <p class="book-price">50$</p>
+                        <p class="book-rating">★★★★★</p>
+                    </div>
+
+                </div>
+
+                <div class="book3">
+                    <div class="book-cover">
+                        <img src="../image/book image/The Little Prince/prince-main.jpg" alt="The Little Prince-picture"
+                            class="book-pic">
+                        <div class="buy-now">
+                            <div class="add">
+                                <a href="../html/aboutus.html" target="_blank"><img src="../image/shopping-cart.png"
+                                        alt="shopping cart-icon"></a>
+                            </div>
+                            <div class="information">
+                                <a href="../html/the-little-prince.html" target="_blank"><img src="../image/book.png"
+                                        alt="book-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-description">
+                        <p class="book-title">The Little Prince</p>
+                        <p class="book-price">50$</p>
+                        <p class="book-rating">★★★★★</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="category-2-container">
+        <div id="onsale" class="category-2">
+            <div class="heading">
+                <h1 class="top-heading"><span>On-sale</span></h1>
+                <p>Discover literary treasures at unbeatable prices as we present our latest selection of on-sale books,
+                    inviting you to indulge in captivating stories without stretching your budget.</p>
+            </div>
+            <div class="books">
+                <div class="book1">
+                    <div class="book-cover">
+                        <img src="../image/book image/The Great Gatsby/gatsby-main.jpg" alt="The Great Gatsby-image"
+                            class="book-pic">
+                        <div class="buy-now">
+                            <div class="add">
+                                <a href="../html/aboutus.html" target="_blank"><img src="../image/shopping-cart.png "
+                                        alt="shopping cart-icon"></a>
+                            </div>
+                            <div class="information">
+                                <a href="../html/the-great-gatsby.html" target="_blank"><img src="../image/book.png"
+                                        alt="book-icon"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="book-description">
+                        <p class="book-title">The Great Gatsby</p>
+                        <p class="book-price">50$</p>
+                        <p class="book-rating">★★★★☆</p>
+                    </div>
+                </div>
+
+                <div class="book2">
+                    <div class="book-cover">
+                        <img src="../image/book image/The Lord of the Rings/lordrings-main.jpg"
+                            alt="The Lord of the Rings image" class="book-pic">
+                        <div class="buy-now">
+                            <div class="add">
+                                <a href="../html/aboutus.html" target="_blank"><img src="../image/shopping-cart.png"
+                                        alt="shopping cart-icon"></a>
+                            </div>
+                            <div class="information">
+                                <a href="../html/the-lord-of-the-ring.html" target="_blank"><img src="../image/book.png"
+                                        alt="book-icon"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="book-description">
+                        <p class="book-title">The Lord of the Rings</p>
+                        <p class="book-price">50$</p>
+                        <p class="book-rating">★★★★★</p>
+                    </div>
+
+                </div>
+
+                <div class="book3">
+                    <div class="book-cover">
+                        <img src="../image/book image/The Hobbit/hobbit-main.jpg" alt="The Hobbi image"
+                            class="book-pic">
+                        <div class="buy-now">
+                            <div class="add">
+                                <img src="../image/shopping-cart.png" alt="shopping cart-icon">
+                            </div>
+                            <div class="information">
+                                <img src="../image/book.png" alt="book-icon">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="book-description">
+                        <p class="book-title">The Hobbit</p>
+                        <p class="book-price">50$</p>
+                        <p class="book-rating">★★★★★</p>
+                    </div>
+                </div>
+                <div class="book4">
+                    <div class="book-cover">
+                        <img src="../image/book image/The Book Thief/bookthief-main.jpg" alt="The Book Thief image"
+                            class="book-pic">
+                        <div class="buy-now">
+                            <div class="add">
+                                <a href="../html/aboutus.html" target="_blank"><img src="../image/shopping-cart.png"
+                                        alt="shopping cart-icon"></a>
+                            </div>
+                            <div class="information">
+                                <a href="../html/the-hobbit.html" target="_blank"><img src="../image/book.png"
+                                        alt="book-icon"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="book-description">
+                        <p class="book-title">The Book Thief</p>
+                        <p class="book-price">50$</p>
+                        <p class="book-rating">★★★★★</p>
+                    </div>
+                </div>
+                <div class="book4">
+                    <div class="book-cover">
+                        <img src="../image/book image/1984/1984-main.jpg" alt="1984 image" class="book-pic">
+                        <div class="buy-now">
+                            <div class="add">
+                                <a href="../html/aboutus.html" target="_blank"><img src="../image/shopping-cart.png"
+                                        alt="shopping cart-icon"></a>
+                            </div>
+                            <div class="information">
+                                <a href="../html/1984.html" target="_blank"><img src="../image/book.png"
+                                        alt="book-icon"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="book-description">
+                        <p class="book-title">1984</p>
+                        <p class="book-price">50$</p>
+                        <p class="book-rating">★★★★★</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div id="membership" class="subscribe">
+        <div class="subscribe-container">
+            <div class="subs-left">
+                <div class="subscribe-text">
+                    <h1>Subscribe to our bookstore and enjoy discounts of up to 20% off!</h1>
+                    <span>Pleases contact us for more information<span>
+                </div>
+                <form class="subscribe-form" action="" method="post">
+
+                    <div id="subs-name">
+                        <input id="name-enter" type="text" placeholder="Your Name" required="">
+                    </div>
+
+
+                    <div id="subs-mail">
+                        <input id="mail-enter" type="text" placeholder="Your Email" required="">
+                    </div>
+
+                    <button id="subs-btn" type="submit"><img src="../image/submit.png"></button>
+                </form>
+
+
+            </div>
+            <div class="subs-right">
+                <div class="subscribe-information">
+                    <div class="subscribe-information-left">
+                        <ul>
+                            <li>Location:
+                                <br>
+                                <span>702 Nguyen Van Linh, District 7, Ho Chi Minh city</span>
+                            </li>
+                            <li>Work time:
+                                <br>
+                                <span>9:00 AM - 8:00 PM Daily</span>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                    <div class="subscribe-information-right">
+                        <ul>
+                            <li>Email Address:
+                                <br>
+                                <span>bookstore@ivi.com</span>
+                                <br>
+                                <br>
+
+
+                            </li>
+                            <li>Phone Number:
+                                <br>
+                                <span>(+84) 945 776 JQK</span>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="aboutcontainer" id="aboutus">
+
+        <div class="aboutus-text">
+            <h2>About Ivi Bookstore</h2>
+            <p>
+                As the world saw a surging popularity of digital shopping driven by its convenience, I have created a
+                website for book enthusiasts that supplies the demand for purchasing books online.
+                <br>
+                <br>
+                Through the creation of this website, I have sought to create a haven where bibliophiles can traverse
+                the realms of fiction, delve into the depths of non-fiction, and explore the uncharted territories of
+                poetry, all with the ease that only digital shopping can afford. Every feature, every design element,
+                and every piece of content has been meticulously crafted to not only facilitate the act of purchasing
+                books but to elevate it into a holistic and enriching experience.
+
+            </p>
+            <br>
+            <h2>Purpose</h2>
+            <p>
+                Introducing Ivi, a bookstore that allows the customers to satisfy their needs of buying online, with its
+                meticulously curated books collection thoughtfully categorised for ease of use.
+                <br>
+                <br>
+                Adapting to the trend of doorstep delivery, Ivi bookstore maximises the customer experience by erasing
+                the difficulties in visiting physical stores. Prioritising the user-centric designs, the website's UI
+                creates an appealing and easy-to-use visual to ensure satisfaction through simple interactions with the
+                webpage. Every click allows clients to make a step closer to the emerging world with the assistance of
+                technology, where every purchasing experience is valued and unforgettable.
+
+            </p>
+            <br>
+            <h2>Follow us</h2>
+
+            <div class="follow-us">
+                <a href="https://www.facebook.com/hok.nava.5/" target="_blank"><img src="../image/facebook.png"
+                        alt="facebook-icon"></a>
+                <a href="https://www.instagram.com/navahok_/" target="_blank"><img src="../image/instagram.png"
+                        alt="instagram cart-icon"></a>
+                <a href="https://twitter.com/navahok1" target="_blank"><img src="../image/twitter.png"
+                        alt="twitter cart-icon"></a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer">
+                <div class="lelft-footer">
+                    <iframe class="utube-media" width="560" height="250" src="https://www.youtube.com/embed/1KvGdT4teHk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="right-footer">
+                    <div class="logo-section">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img class="logo-pic" src="../image/ivi-logo.png" alt="ivi-logo">
+                            </a>
+                        </div>
+                        <div class="logo-text">
+                            <p>
+                                ©2004-2023 IvI Booksellers, Inc. 702 Nguyen Van Linh, District 7, Ho Chi Minh city 70000
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="nav-footer">
+                        <hr class="hr-footer">
+                        <div class="nav">
+                            <div class="aboutus">
+                                <p><a href="../html/index.html#aboutus">About Us</a></p>
+
+                            </div>
+
+                            <div class="privacy">
+                                <p><a href="../html/privacy.html">Privacy </a></p>
+
+                            </div>
+                            <div class="copyright">
+                                <p><a href="../html/copyright.html">Copyright</a> </p>
+
+
+                            </div>
+                            <div class="term">
+                                <p><a href="../html/term.html">Terms</a> </p>
+
+
+                            </div>
+
+                            <div class="contactus">
+                                <p><a href="../html/aboutus.html">Contact Us</a> </p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+    </footer>
+
+</body>
+
+
+</html>
